@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kontaktiraamat>
+  <isik>
+    <eesnimi>Uudo</eesnimi>
+    <perenimi>Kalju</perenimi>
+    <sünnipäev>1996-02-02</sünnipäev>
+    <kirjeldus><![CDATA[Kirjeldus <3]]></kirjeldus>
+    <kontaktid>
+      <kontakt type="phone">5552222</kontakt>
+      <kontakt type="phone"></kontakt>
+      <kontakt type="email">test@example.com</kontakt>
+    </kontaktid>
+  </isik>
+  <isik>
+    <eesnimi>Uudo2</eesnimi>
+    <perenimi>Kalju</perenimi>
+    <sünnipäev>02.02.1996</sünnipäev>
+    <kontaktid>
+      <kontakt type="phone">5552222</kontakt>
+      <kontakt type="phone"></kontakt>
+      <kontakt type="email">test@example.com</kontakt>
+    </kontaktid>
+  </isik>
+  <isik>
+    <eesnimi>Uudo3</eesnimi>
+    <perenimi>Kalju</perenimi>
+    <sünnipäev>02.02.1996</sünnipäev>
+    <kontaktid>
+      <kontakt type="phone">5552222</kontakt>
+      <kontakt type="phone"></kontakt>
+      <kontakt type="email">test@example.com</kontakt>
+    </kontaktid>
+  </isik>
+</kontaktiraamat>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tptlive.ee/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="kontaktiraamat">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="isik" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="eesnimi" type="xs:string"></xs:element>
+              <xs:element name="perenimi" type="xs:string"></xs:element>
+              <xs:element name="sünnipäev" type="xs:date"></xs:element>
+              <xs:element name="kirjeldus" type="xs:string"></xs:element>
+              
+              <xs:element name="kontaktid">
+                <xs:complexType>
+                  <xs:sequence>
+
+                    <xs:element name="kontakt" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="type" type="xs:string"></xs:attribute>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
